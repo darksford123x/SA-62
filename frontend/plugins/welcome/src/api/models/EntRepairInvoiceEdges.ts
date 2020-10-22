@@ -64,9 +64,9 @@ export function EntRepairInvoiceEdgesFromJSONTyped(json: any, ignoreDiscriminato
     }
     return {
         
-        'device': !exists(json, 'device') ? undefined : EntDeviceFromJSON(json['device']),
-        'status': !exists(json, 'status') ? undefined : EntStatusRFromJSON(json['status']),
-        'symptom': !exists(json, 'symptom') ? undefined : EntSymptomFromJSON(json['symptom']),
+        'device': !exists(json, 'Device') ? undefined : EntDeviceFromJSON(json['Device']),
+        'status': !exists(json, 'Status') ? undefined : EntStatusRFromJSON(json['Status']),
+        'symptom': !exists(json, 'Symptom') ? undefined : EntSymptomFromJSON(json['Symptom']),
     };
 }
 

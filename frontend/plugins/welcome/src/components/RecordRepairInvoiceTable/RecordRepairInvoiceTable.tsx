@@ -61,7 +61,7 @@ export default function ComponentsRecordRepairInvoiceTable() {
      <Table className={classes.table} aria-label="simple table">
        <TableHead>
          <TableRow>
-           <TableCell align="center">queue</TableCell>
+           <TableCell align="center">Queue</TableCell>
            <TableCell align="center">Repaired Invoice ID</TableCell>
            <TableCell align="center">Device</TableCell>
            <TableCell align="center">Symptom</TableCell>
